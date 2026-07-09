@@ -83,7 +83,7 @@ export function Landing() {
 
             <Reveal delayMs={160}>
               <p className="mt-7 max-w-[34rem] text-[1.06rem] leading-[1.7] text-mist-300">
-                Tell us where you're headed, your dates, and how you like to travel.
+                Tell us where you're headed, your dates, and how you like to plan your trip.
                 VoyageFlow drafts the full itinerary — you drag, reorder, and make it yours.
               </p>
             </Reveal>
