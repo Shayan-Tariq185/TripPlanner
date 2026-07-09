@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Plan a full trip in minutes — AI-drafted day-by-day itineraries, real maps, and budget tracking, all in one place." />
+    <title>VoyageFlow — Plan your trip</title>
+  </head>
+  <body>
+    <script>
+      // Set the theme attribute before first paint to avoid a flash of the
+      // wrong mode. Mirrors the default in ThemeContext (dark unless stored).
+      (function () {
+        try {
+          var t = localStorage.getItem('voyageflow-theme');
+          document.documentElement.setAttribute('data-theme', t === 'light' ? 'light' : 'dark');
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
