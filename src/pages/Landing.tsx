@@ -121,8 +121,8 @@ export function Landing() {
           </div>
 
           <div className="relative hidden h-[540px] md:block">
-            <TicketCard city="Lisbon, Portugal" dates="Sep 4 – Sep 10" badge="Budget" className="left-5 top-[10px] z-[1] -rotate-[5deg]" />
-            <TicketCard city="Kyoto, Japan" dates="Nov 12 – Nov 20" badge="Luxury" className="left-[120px] top-[120px] z-[2] rotate-[3deg] bg-ink-600" />
+            <TicketCard city="Lisbon, Portugal" dates="Aug 7 – Aug 12" badge="Budget" className="left-5 top-[10px] z-[1] -rotate-[5deg]" />
+            <TicketCard city="Istanbul, Turkey" dates="Nov 12 – Nov 20" badge="Luxury" className="left-[120px] top-[120px] z-[2] rotate-[3deg] bg-ink-600" />
             <TicketCard city="Hunza, Pakistan" dates="Jul 7 – Jul 11" badge="Relaxed" className="left-[8px] top-[268px] z-[3] -rotate-[2deg]" />
             <div className="absolute inset-x-6 bottom-3 flex items-center gap-2 border-t border-dashed border-hairline-strong pt-5 font-display text-sm italic text-mist-300">
               <BrandMark className="h-[13px] w-[13px] shrink-0 text-mist-400" />
